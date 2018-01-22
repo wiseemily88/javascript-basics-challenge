@@ -22,4 +22,9 @@ describe("it can take an array and compute a value", function(){
     assert.strictEqual(myFunctions.median(array), 2.5 )
   })
 
+  it("returns an object representing the mode(s) of the array", function(){
+    var array = [3, 2, 1, 3]
+    assert.strictEqual(myFunctions.mode(array), 3 )
+  })
+
 })
